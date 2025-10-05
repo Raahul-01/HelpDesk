@@ -28,8 +28,11 @@ A modern, cyberpunk-inspired Help Desk platform built with Next.js, TypeScript, 
 Create a `.env.local` in the project root:
 
 ```bash
+# Supabase client keys (browser + server)
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+# Optional: used only in server-side scripts (NOT used by app code)
 SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 ```
 
