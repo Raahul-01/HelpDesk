@@ -1,13 +1,13 @@
 # HelpDesk System
 
-A modern, cyberpunk-inspired Help Desk platform built with Next.js, TypeScript, Tailwind CSS, and Supabase. Includes AI-friendly UX, real-time SLA monitoring, rich ticket management, and a terminal-themed landing experience.
+HelpDesk System is a ticketing and support application built with Next.js, TypeScript, Tailwind CSS, and Supabase. It provides end‑to‑end ticket management, SLA tracking, and a clean UI suitable for modern support teams.
 
 ## Features
-- AI-powered ticket routing and automation
-- Real-time SLA monitoring and breach detection
-- Ticket creation, details, comments, history timeline
+- Ticket creation and management
+- Comments, history timeline, and activity tracking
+- SLA monitoring and breach detection
 - Filters, pagination, and dashboard views
-- Terminal-style hero and ASCII feature grid
+- Optional AI-assisted routing and automation
 - Supabase-backed auth and data access
 
 ## Tech Stack
