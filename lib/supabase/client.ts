@@ -1,4 +1,5 @@
 import { createBrowserClient } from "@supabase/ssr"
+import { getSupabaseAnonKey, getSupabaseUrl } from "./env"
 
 let client: ReturnType<typeof createBrowserClient> | null = null
 
@@ -7,10 +8,7 @@ export function createClient() {
     return client
   }
 
-  client = createBrowserClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-  )
+  client = createBrowserClient(getSupabaseUrl(), getSupabaseAnonKey())
 
   return client
 }
