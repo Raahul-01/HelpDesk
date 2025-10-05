@@ -117,10 +117,6 @@ Embed example:
 
 Implementation is in `app/api/...`.
 
-## Scripts
-- `scripts/01-create-tables.sql` — Core tables
-- `scripts/02-seed-data.sql` — Seed sample data
-- `scripts/03-update-sla-breaches.sql` — SLA breach tracking
 
 ## Development Notes
 - UI components live under `components/` with a `ui/` subfolder for primitives
