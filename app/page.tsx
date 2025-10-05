@@ -28,7 +28,6 @@ import {
   Monitor,
   Laptop,
   Coffee,
-  Gamepad2,
   Music,
   Palette,
   Camera,

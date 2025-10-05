@@ -102,7 +102,7 @@ public/Screenshot 2025-10-04 200228.png
 
 Embed example:
 ```markdown
-![Terminal](public/Screenshot%202025-10-04%20200228.png)
+![Terminal](public/Screenshot 2025-10-04 200228.png)
 ```
 
 ## API Routes
@@ -138,7 +138,7 @@ Implementation is in `app/api/...`.
 ![Terminal](public/screenshot-terminal.png)
 ![Tickets](public/screenshot-tickets.png)
 ![New Ticket](public/screenshot-new-ticket.png)
-![Ticket Details](public/screenshot-ticket-details.png)
+![Ticket Details](public/Screenshot 2025-10-04 200228.png)
 ```
 
 
