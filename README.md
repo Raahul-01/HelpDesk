@@ -47,38 +47,6 @@ pnpm start
 ```
 
 
-Apply these via Supabase SQL editor or your preferred Postgres client.
-
-## Project Structure
-```
-app/
-  api/
-    sla/
-      check-breaches/route.ts
-      stats/route.ts
-    tickets/
-      [id]/
-        comments/route.ts
-        history/route.ts
-        route.ts
-      route.ts
-  tickets/
-    [id]/page.tsx
-    new/page.tsx
-    page.tsx
-  page.tsx
-components/
-  cyberpunk-header.tsx
-  cyberpunk-logo.tsx
-  new-ticket-form.tsx
-  sla-dashboard.tsx
-  ticket-*.tsx (card, details, header, timeline, comments)
-  tickets-*.tsx (filters, list, pagination)
-  ui/* (shared UI primitives)
-lib/
-  auth.ts, sla.ts, supabase/*, types.ts, utils.ts
-```
-
 ## Pages and Screenshots
 Add screenshots to `public/` and update the paths below. Suggested naming: `screenshot-*.png`.
 
@@ -127,9 +95,14 @@ From `app/page.tsx`, capture the terminal content area showing:
 - `./features --list` output
 - `./launch --interactive` call and action buttons
 
-Screenshot placeholder:
+Terminal screenshot path:
 ```text
-public/screenshot-terminal.png
+public/Screenshot 2025-10-04 200228.png
+```
+
+Embed example:
+```markdown
+![Terminal](public/Screenshot%202025-10-04%20200228.png)
 ```
 
 ## API Routes
@@ -168,7 +141,6 @@ Implementation is in `app/api/...`.
 ![Ticket Details](public/screenshot-ticket-details.png)
 ```
 
-## License
-MIT
+
 
 
